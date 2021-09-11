@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+#showcase {
+  background-image: url("../img/9.jpg");
+  background-size: cover;
+  background-position: center;
+  color: rgba(247, 231, 7, 0.9);
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+#showcase h1 {
+  font-size: 55px;
+  line-height: 1.2;
+}
+
+#showcase h2 {
+  font-size: 30px;
+  color: rgb(248, 6, 54);
+  font-family: cursive;
+}
+
+#showcase p {
+  color: rgb(77, 243, 11);
+  font-size: 25px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#showcase .button {
+  font-size: 18px;
+  text-decoration: none;
+  color: rgb(243, 10, 10);
+  border: 1px solid rgb(243, 148, 6);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+#showcase .button:hover {
+  background-color: rgb(50, 6, 248);
+  color: rgb(246, 250, 248);
+}
+
+#food h2 {
+  font-size: 4em;
+  text-align: center;
+  color: rgb(8, 8, 8);
+  margin: 25px 0 25px 0;
+  font-family: cursive;
+}
+
+#food .box {
+  background-color: #f7efb9;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+#Services h2 {
+  font-size: 4em;
+  text-align: center;
+  color: rgb(8, 8, 8);
+  margin: 25px 0 25px 0;
+  font-family: cursive;
+}
+
+.service {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+}
+
+.item1 .i1 {
+  float: left;
+  margin-right: 1.5em;
+  margin-bottom: 0.5em;
+  border-radius: 1.5em;
+}
+
+.item1 .i2 {
+  float: right;
+  margin-left: 1em;
+  margin-bottom: 0.5em;
+  border-radius: 1.5em;
+}
+
+.item1 .i3 {
+  float: left;
+  margin-bottom: 0.5em;
+  margin-right: 2.5em;
+  border-radius: 1.5em;
+}
+
+.item1 p {
+  background-color: #fef7dc;
+}
+
+#contact h2 {
+  font-size: 4em;
+  text-align: center;
+  color: rgb(8, 8, 8);
+  margin: 25px 0 25px 0;
+  font-family: cursive;
+}
+
+.cont {
+  display: block;
+  text-align: center;
+  background-color: #f1ecc3;
+}
+
+.input {
+  width: 50em;
+  height: 2em;
+  border-radius: 0.2em;
+  background-color: #d5f1f0;
+  border: none;
+}
+
+.btn {
+  margin: 15px 0 25px 0;
+}
+
+.thank {
+  font-size: 7em;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #ff1100;
+  margin: 25px 0 25px 0;
+  font-family: cursive;
+  background-image: url("/img/10.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+}
